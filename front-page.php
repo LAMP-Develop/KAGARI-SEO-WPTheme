@@ -174,7 +174,7 @@ $p = get_field('seminar_url', get_the_ID()); ?>
 </div>
 </div>
 <div class="col-md-7 d-flex justify-content-center align-items-end text-center px-3">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/ui_preview_report.png" srcset="<?php echo $wp_url; ?>/lib/images/ui_preview_seo.png 1x, <?php echo $wp_url; ?>/lib/images/ui_preview_report@2x.png 2x" alt="KAGARI SEO">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/ui_preview_report.png" srcset="<?php echo $wp_url; ?>/lib/images/ui_preview_report.png 1x, <?php echo $wp_url; ?>/lib/images/ui_preview_report@2x.png 2x" alt="KAGARI SEO">
 </div>
 </div>
 </div>
