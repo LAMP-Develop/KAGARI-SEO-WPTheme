@@ -8,7 +8,7 @@ get_header(); ?>
 <div class="col-lg-7 mb-4 mb-lg-0">
 <p class="font-weight-bold mb-2 h5 text-dark">162社・50,000ページ以上で利用中</p>
 <h1 class="text-dark font-weight-bold mb-4">ページのSEO流入に特化した<br class="d-none d-md-block">アクセス解析ツール</h1>
-<a class="btn btn-primary" href="#" role="button"><i class="fab fa-google mr-2"></i>今すぐ無料トライアル</a>
+<a class="btn btn-primary" href="https://reporting.kagari.ai/register" role="button" target="_blank"><i class="fab fa-google mr-2"></i>今すぐ無料トライアル</a>
 </div>
 <div class="col-lg-5 img pt-lg-5 pt-xl-0">
 <img class="img" src="<?php echo $wp_url; ?>/lib/images/mv.png" srcset="<?php echo $wp_url; ?>/lib/images/mv.png 1x, <?php echo $wp_url; ?>/lib/images/mv@2x.png 2x" alt="レポート画像">
@@ -108,10 +108,39 @@ get_header(); ?>
 
 </div>
 </section>
-<!-- <section class="sec sec-bg-gray">
+<section class="sec sec-bg-gray">
 <div class="container">
 <h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-5 mb-4">業種・業態を問わず様々なお客様に<br class="d-sm-block d-none">ご利用いただいています</h2>
-<?php get_template_part('works'); ?>
+<div class="row align-items-stretch">
+<?php
+include_once(ABSPATH.WPINC.'/feed.php');
+$feeduri = 'http://lamp-inc.sakura.ne.jp/kagari_re/master/feed/?post_type=works';
+$rss = fetch_feed($feeduri);
+if (!is_wp_error($rss)) {
+    $maxitems = $rss->get_item_quantity(3);
+    $rss_items = $rss->get_items(0, $maxitems);
+}
+foreach ($rss_items as $post):
+$p = $post->get_permalink();
+$t = $post->get_title();
+$thumbnail = '';
+var_dump($post->get_content());
+if (preg_match('/<img.+?src=[\'"]([^\'"]+?)[\'"].*?>/msi', $post->get_content(), $matches)) {
+    var_dump($matches);
+    $thumbnail = $matches[1];
+}
+?>
+<div class="col-md-4 mb-md-0 mb-3">
+<div class="position-relative card border-0 rounded-lg shadow-sm">
+<img class="card-img-top" src="<?php echo $thumbnail; ?>" alt="<?php echo $t; ?>">
+<div class="card-body">
+<h3 class="h5 text-dark font-weight-bold"><?php echo $t; ?></h3>
+</div>
+<a class="stretched-link" href="<?php echo $p; ?>"></a>
+</div>
+</div>
+<?php endforeach; wp_reset_postdata(); ?>
+</div>
 <div class="mt-4 text-center">
 <a class="btn btn-outline-primary" href="<?php echo $home; ?>/works/" role="button">すべての事例をみる<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
@@ -123,7 +152,7 @@ get_header(); ?>
 </div>
 <?php endfor; ?>
 </div>
-</section> -->
+</section>
 <section class="sec sec-bg-gray">
 <div class="container">
 <h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-5 mb-4">セミナー情報</h2>

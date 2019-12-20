@@ -8,7 +8,7 @@ $wp_url = get_template_directory_uri(); ?>
 <p>サンプル配布中
 <br>強力なSEO分析を是非ご体験ください。</p>
 <div class="mt-4">
-<a class="btn btn-primary" href="https://seo.kagari.ai/" target="_blank" role="button"><i class="fas fa-arrow-alt-circle-down mr-2"></i>サンプルを体験する</a>
+<a class="btn btn-primary" href="https://seo.kagari.ai/demo/" target="_blank" role="button"><i class="fas fa-arrow-alt-circle-down mr-2"></i>サンプルを体験する</a>
 </div>
 </div>
 <div class="col-lg-5 d-none d-lg-block">
