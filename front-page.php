@@ -108,7 +108,7 @@ get_header(); ?>
 
 </div>
 </section>
-<section class="sec sec-bg-gray">
+<!-- <section class="sec sec-bg-gray">
 <div class="container">
 <h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-5 mb-4">業種・業態を問わず様々なお客様に<br class="d-sm-block d-none">ご利用いただいています</h2>
 <div class="row align-items-stretch">
@@ -124,9 +124,7 @@ foreach ($rss_items as $post):
 $p = $post->get_permalink();
 $t = $post->get_title();
 $thumbnail = '';
-var_dump($post->get_content());
 if (preg_match('/<img.+?src=[\'"]([^\'"]+?)[\'"].*?>/msi', $post->get_content(), $matches)) {
-    var_dump($matches);
     $thumbnail = $matches[1];
 }
 ?>
@@ -152,7 +150,7 @@ if (preg_match('/<img.+?src=[\'"]([^\'"]+?)[\'"].*?>/msi', $post->get_content(),
 </div>
 <?php endfor; ?>
 </div>
-</section>
+</section> -->
 <section class="sec sec-bg-gray">
 <div class="container">
 <h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-5 mb-4">セミナー情報</h2>
