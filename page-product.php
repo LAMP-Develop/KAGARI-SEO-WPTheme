@@ -113,12 +113,12 @@ get_header(); ?>
 </div>
 <p class="card-text">時間と手間のかかる解析レポートを自動で作成。Google Analyticsと連携してすぐに使えます。</p>
 <div class="mt-4">
-<a href="https://report.kagari.ai" target="_blank" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
+<a href="http://lamp-inc.sakura.ne.jp/kagari_re/report/" target="_blank" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
 </div>
 </div>
 <div class="col-md-7 d-flex justify-content-center align-items-end text-center px-3">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/ui_preview_report.png" srcset="<?php echo $wp_url; ?>/lib/images/ui_preview_seo.png 1x, <?php echo $wp_url; ?>/lib/images/ui_preview_report@2x.png 2x" alt="KAGARI SEO">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/ui_preview_report.png" srcset="<?php echo $wp_url; ?>/lib/images/ui_preview_report.png 1x, <?php echo $wp_url; ?>/lib/images/ui_preview_report@2x.png 2x" alt="KAGARI SEO">
 </div>
 </div>
 </div>
