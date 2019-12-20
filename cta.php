@@ -5,10 +5,10 @@ $wp_url = get_template_directory_uri(); ?>
 <div class="row">
 <div class="col-lg-7 mb-4 mb-lg-0">
 <h2 class="font-size-lg text-center text-md-left text-dark font-weight-bold mb-4">SEO分析を<br class="d-md-none">KAGARIが効率化します</h2>
-<p>サンプルレポート配布中
-<br>Google Analyticsと連携して、レポートの自動作成をご体験ください。</p>
+<p>サンプル配布中
+<br>強力なSEO分析を是非ご体験ください。</p>
 <div class="mt-4">
-<a class="btn btn-primary" href="https://kagari.ai/report-demo/pdf/kagari-reports.pdf" target="_blank" role="button"><i class="fas fa-arrow-alt-circle-down mr-2"></i>サンプルをダウンロード<small>(PDF)</small></a>
+<a class="btn btn-primary" href="https://seo.kagari.ai/" target="_blank" role="button"><i class="fas fa-arrow-alt-circle-down mr-2"></i>サンプルをダウンロード<small>(PDF)</small></a>
 </div>
 </div>
 <div class="col-lg-5 d-none d-lg-block">
