@@ -12,7 +12,7 @@ $wp_url = get_template_directory_uri(); ?>
 </div>
 </div>
 <div class="col-lg-5 d-none d-lg-block">
-<img class="img" src="<?php echo $wp_url; ?>/lib/images/cta.png" srcset="<?php echo $wp_url; ?>/lib/images/cta.png 1x, <?php echo $wp_url; ?>/lib/images/cta@2x.png 2x" alt="レポート画像">
+<img class="img mt-n5" src="<?php echo $wp_url; ?>/lib/images/cta.png" srcset="<?php echo $wp_url; ?>/lib/images/cta.png 1x, <?php echo $wp_url; ?>/lib/images/cta@2x.png 2x" alt="レポート画像">
 </div>
 </div>
 </div>

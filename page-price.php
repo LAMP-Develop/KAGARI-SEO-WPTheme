@@ -39,9 +39,6 @@ get_header(); ?>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>AI改善提案</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>検索順位/キーワードのレポーティング</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>ページごとのSEO分析</p>
-<div class="mt-4">
-<a class="btn btn-outline-primary" href="http://lamp-inc.sakura.ne.jp/kagari_re/report/" target="_blank">KAGARI Reportについて詳しく<i class="fas fa-chevron-right ml-2"></i></a>
-</div>
 </div>
 </div>
 <div class="col-md-7 d-flex justify-content-center align-items-end text-center pb-3">
@@ -64,6 +61,9 @@ get_header(); ?>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>アクセス解析</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>レポーティング機能</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>AI改善提案</p>
+<div class="mt-4">
+<a class="btn btn-outline-primary" href="http://lamp-inc.sakura.ne.jp/kagari_re/report/" target="_blank">KAGARI Reportについて詳しく<i class="fas fa-chevron-right ml-2"></i></a>
+</div>
 </div>
 </div>
 <div class="col-md-7 d-flex justify-content-center align-items-end text-center pb-3">
@@ -92,9 +92,6 @@ get_header(); ?>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>AI改善提案</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>検索順位/キーワードのレポーティング</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>ページごとのSEO分析</p>
-<div class="mt-4">
-<a class="btn btn-outline-primary" href="http://lamp-inc.sakura.ne.jp/kagari_re/report/" target="_blank">KAGARI Reportについて詳しく<i class="fas fa-chevron-right ml-2"></i></a>
-</div>
 </div>
 </div>
 <div class="col-md-7 d-flex justify-content-center align-items-end text-center pb-3">
@@ -117,6 +114,9 @@ get_header(); ?>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>アクセス解析</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>レポーティング機能</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>AI改善提案</p>
+<div class="mt-4">
+<a class="btn btn-outline-primary" href="http://lamp-inc.sakura.ne.jp/kagari_re/report/" target="_blank">KAGARI Reportについて詳しく<i class="fas fa-chevron-right ml-2"></i></a>
+</div>
 </div>
 </div>
 <div class="col-md-7 d-flex justify-content-center align-items-end text-center pb-3">
@@ -144,9 +144,6 @@ get_header(); ?>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>AI改善提案</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>検索順位/キーワードのレポーティング</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>ページごとのSEO分析</p>
-<div class="mt-4">
-<a class="btn btn-outline-primary" href="http://lamp-inc.sakura.ne.jp/kagari_re/report/" target="_blank">KAGARI Reportについて詳しく<i class="fas fa-chevron-right ml-2"></i></a>
-</div>
 </div>
 </div>
 <div class="col-md-7 d-flex justify-content-center align-items-end text-center pb-3">
@@ -169,6 +166,9 @@ get_header(); ?>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>アクセス解析</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>レポーティング機能</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>AI改善提案</p>
+<div class="mt-4">
+<a class="btn btn-outline-primary" href="http://lamp-inc.sakura.ne.jp/kagari_re/report/" target="_blank">KAGARI Reportについて詳しく<i class="fas fa-chevron-right ml-2"></i></a>
+</div>
 </div>
 </div>
 <div class="col-md-7 d-flex justify-content-center align-items-end text-center pb-3">

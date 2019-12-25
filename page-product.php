@@ -8,7 +8,7 @@ get_header(); ?>
 <h2 class="font-size-lg text-center text-dark font-weight-bold mb-md-5 mb-4">SEO分析を効率化するための機能が揃っています</h2>
 <div class="card mb-4 overflow-hidden sec-bg-gray border-0 shadow">
 <div class="row no-gutters align-items-center">
-<div class="col-md-7 bg-white p-md-4">
+<div class="col-lg-7 bg-white p-md-4">
 <div class="card-body">
 <div class="card-title">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_tools.svg" alt="従来のツール">
@@ -16,17 +16,17 @@ get_header(); ?>
 <div class="card-title">
 <h3 class="text-dark font-weight-bold">アクセスデータとSEOを1画面で</h3>
 </div>
-<p class="card-text m-0">Google Analyticsをご利用のGoogleアカウントと連携するだけでご利用いただけます。データの取得などを待つことなく、登録後すぐにレポート作成機能をご利用いただけます。</p>
+<p class="card-text m-0">PV数やセッション数、直帰率などのアクセスデータと検索キーワードや掲載順位によるSEO分析、SNS分析が1つの画面に集約されています。Google AnalyticsとGoogle Search Consoleを行き来することなくアクセス解析が可能です。</p>
 </div>
 </div>
-<div class="col-md-5 text-center p-md-4 p-3">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/cooperation.png" srcset="<?php echo $wp_url; ?>/lib/images/cooperation.png 1x, <?php echo $wp_url; ?>/lib/images/cooperation@2x.png 2x" alt="Google Analyticsと連携するだけ">
+<div class="col-lg-5 align-self-end text-right">
+<img class="" src="<?php echo $wp_url; ?>/lib/images/function01.png" srcset="<?php echo $wp_url; ?>/lib/images/function01.png 1x, <?php echo $wp_url; ?>/lib/images/function01@2x.png 2x" alt="Google Analyticsと連携するだけ">
 </div>
 </div>
 </div>
 <div class="card mb-4 overflow-hidden sec-bg-gray border-0 shadow">
 <div class="row no-gutters align-items-center">
-<div class="col-md-7 bg-white p-md-4">
+<div class="col-lg-7 bg-white p-md-4">
 <div class="card-body">
 <div class="card-title">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_kagariseo.svg" alt="KAGARI SEO">
@@ -34,17 +34,17 @@ get_header(); ?>
 <div class="card-title">
 <h3 class="text-dark font-weight-bold">検索キーワードや順位を確認</h3>
 </div>
-<p class="card-text m-0">数多くのサイトの解析を手掛けたノウハウに基づいて、AIが状況の解説をします。AIの総括コメントと提案が自動で入力されるので、そのまま印刷して報告業務にご利用いただけます。</p>
+<p class="card-text m-0">ページ単位で検索キーワードや検索順位を確認することができます。ページがどんなキーワードで検索されているのかと、それぞれのキーワードごとの検索順位を表示することで、SEOの改善に役立てることができます。</p>
 </div>
 </div>
-<div class="col-md-5 text-center p-md-4 p-3">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/improvement.png" srcset="<?php echo $wp_url; ?>/lib/images/improvement.png 1x, <?php echo $wp_url; ?>/lib/images/improvement@2x.png 2x" alt="Google Analyticsと連携するだけ">
+<div class="col-lg-5 align-self-end">
+<img class="w-100" src="<?php echo $wp_url; ?>/lib/images/function02.png" srcset="<?php echo $wp_url; ?>/lib/images/function02.png 1x, <?php echo $wp_url; ?>/lib/images/function02@2x.png 2x" alt="Google Analyticsと連携するだけ">
 </div>
 </div>
 </div>
 <div class="card overflow-hidden sec-bg-gray border-0 shadow">
 <div class="row no-gutters align-items-end">
-<div class="col-md-7 bg-white p-md-4">
+<div class="col-lg-7 bg-white p-md-4">
 <div class="card-body">
 <div class="card-title">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_pages.svg" alt="多くのページ">
@@ -52,11 +52,11 @@ get_header(); ?>
 <div class="card-title">
 <h3 class="text-dark font-weight-bold">ページ数の多いサイトに最適</h3>
 </div>
-<p class="card-text m-0">レポートはPDF形式で作成されるので、重いソフトを開くことなくそのまま印刷することができます。毎月のレポートをメールで自動送信できるので、レポート作成の手間を大幅に削減できます。</p>
+<p class="card-text m-0">大量のページを一覧で表示できるため、ページ数が多いサイトのアクセス解析の効率が劇的に向上します。オウンドメディアやECサイトなどのページ数の多いサイトの解析を効率化します。</p>
 </div>
 </div>
-<div class="col-md-5 text-center px-md-4 px-3 pt-md-4 pt-3">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/report.png" srcset="<?php echo $wp_url; ?>/lib/images/report.png 1x, <?php echo $wp_url; ?>/lib/images/report@2x.png 2x" alt="そのまま使えるレポートが自動で完成">
+<div class="col-lg-5 align-self-stretch text-right">
+<img class="h-100" src="<?php echo $wp_url; ?>/lib/images/function03.png" srcset="<?php echo $wp_url; ?>/lib/images/function03.png 1x, <?php echo $wp_url; ?>/lib/images/function03@2x.png 2x" alt="そのまま使えるレポートが自動で完成">
 </div>
 </div>
 </div>
@@ -103,7 +103,7 @@ get_header(); ?>
 <h2 class="font-size-lg text-center text-dark font-weight-bold my-5">レポート作成ツールもご利用いただけます</h2>
 <div class="card overflow-hidden sec-bg-gray border-0 shadow mb-4 position-relative">
 <div class="row no-gutters">
-<div class="col-md-5 bg-white p-md-2 p-lg-4 position-static">
+<div class="col-lg-5 bg-white p-md-2 p-lg-4 position-static">
 <div class="card-body">
 <div class="card-title">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/logo_report.svg" alt="KAGARI Report">
@@ -117,7 +117,7 @@ get_header(); ?>
 </div>
 </div>
 </div>
-<div class="col-md-7 d-flex justify-content-center align-items-end text-center px-3">
+<div class="col-lg-7 d-flex justify-content-center align-items-end text-center px-3">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/ui_preview_report.png" srcset="<?php echo $wp_url; ?>/lib/images/ui_preview_report.png 1x, <?php echo $wp_url; ?>/lib/images/ui_preview_report@2x.png 2x" alt="KAGARI SEO">
 </div>
 </div>
