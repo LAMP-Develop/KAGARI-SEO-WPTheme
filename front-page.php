@@ -6,8 +6,8 @@ get_header(); ?>
 <div class="container">
 <div class="row">
 <div class="col-lg-7 mb-4 mb-lg-0">
-<p class="font-weight-bold mb-2 h5 text-dark">162社・50,000ページ以上で利用中</p>
-<h1 class="text-dark font-weight-bold mb-4">ページのSEO流入に特化した<br class="d-none d-md-block">アクセス解析ツール</h1>
+<h1 class="text-dark font-weight-bold mb-4">ページごとのSEO分析に特化した<br class="d-none d-md-block">アクセス解析ツール</h1>
+<p>KAGARI SEOは、サイトにあるすべてのページの検索クエリと<br class="d-none d-md-block">検索順位を可視化するSEO対策ツールです。</p>
 <a class="btn btn-primary" href="https://reporting.kagari.ai/register" role="button" target="_blank"><i class="fab fa-google mr-2"></i>今すぐ無料トライアル</a>
 </div>
 <div class="col-lg-5 img pt-lg-5 pt-xl-0">
@@ -18,7 +18,7 @@ get_header(); ?>
 </section>
 <section class="sec sec-bg-gray">
 <div class="container">
-<h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-5 mb-4">ページが多いサイトのSEO分析を効率化します</h2>
+<h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-5 mb-4">時間と手間がかかるSEO分析作業を効率化</h2>
 <div class="row justify-content-center">
 <div class="row col-xl-10 px-0">
 <div class="col-md mb-md-0 mb-3">
@@ -27,8 +27,8 @@ get_header(); ?>
 <div class="text-center mt-3 mb-4">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_tools.svg" alt="Google Analytics">
 </div>
-<h3 class="card-title font-weight-bold text-center h5 text-dark">アクセスデータと<br>SEOを1画面で</h3>
-<p>Google AnalyticsとSearch Consoleのデータを1つのツールで確認できます。</p>
+<h3 class="card-title font-weight-bold text-center h5 text-dark">ページの検索クエリと<br>検索順位を可視化</h3>
+<p>ページごとに検索エンジン経由で流入したキーワードとその順位、ヒット数をリストで表示します。</p>
 <div class="text-center">
 <a href="<?php echo $home; ?>/product/" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
@@ -41,8 +41,8 @@ get_header(); ?>
 <div class="text-center mt-3 mb-4">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_kagariseo.svg" alt="AI">
 </div>
-<h3 class="card-title font-weight-bold text-center h5 text-dark">検索キーワードや<br>順位を確認</h3>
-<p>検索キーワードや検索順位をページごとに確認して、検索からの流入を分析できます。</p>
+<h3 class="card-title font-weight-bold text-center h5 text-dark">アクセスデータと<br>SEO状況を1画面で分析</h3>
+<p>Google AnalyticsとSearch Consoleのデータを1つの画面で比較しながら分析することができます。</p>
 <div class="text-center">
 <a href="<?php echo $home; ?>/product/" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
@@ -55,8 +55,8 @@ get_header(); ?>
 <div class="text-center mt-3 mb-4">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_pages.svg" alt="レポート">
 </div>
-<h3 class="card-title font-weight-bold text-center h5 text-dark">ページ数の多い<br>サイトに最適</h3>
-<p>オウンドメディアやECサイトなど、ページの多いサイトのSEO分析に最適です。</p>
+<h3 class="card-title font-weight-bold text-center h5 text-dark">エクスポートして<br>解析レポートを作成</h3>
+<p>Excel形式でエクスポートし、付属のアクセス解析レポートとセットで作成をすることができます。</p>
 <div class="text-center">
 <a href="<?php echo $home; ?>/product/" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
