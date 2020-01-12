@@ -69,7 +69,52 @@ get_header(); ?>
 </section>
 <section class="sec sec-bg-dark">
 <div class="container">
-<h2 class="font-size-lg text-white text-center font-weight-bold mb-md-5 mb-4">SEOを改善して事業の課題を解決しましょう</h2>
+<h2 class="font-size-lg text-white text-center font-weight-bold mb-md-5 mb-4">SEOを効率化することであらゆる効果の向上に</h2>
+<div class="row justify-content-center">
+<div class="row col-xl-10 px-0">
+<div class="col-md mb-md-0 mb-3">
+<div class="card h-100 border-0 shadow-sm">
+<div class="card-body">
+<div class="text-center mt-3 mb-4">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/customer01.svg" alt="事業会社">
+</div>
+<p class="text-center font-weight-bold text-dark h4">事業会社</p>
+<p class="text-center text-dark">WEB担当者様</p>
+<p class="text-left m-0">解析が困難な検索クエリ、検索順位等のSEO状況を可視化し、社内で効率よく報告をすることができます。</p>
+</div>
+</div>
+</div>
+<div class="col-md mb-md-0 mb-3">
+<div class="card h-100 border-0 shadow-sm">
+<div class="card-body">
+<div class="text-center mt-3 mb-4">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/customer02.svg" alt="制作・広告会社">
+</div>
+<p class="text-center font-weight-bold text-dark h4">制作・広告会社</p>
+<p class="text-center text-dark">営業担当者様</p>
+<p class="text-left m-0">定期的なレポート報告による顧客満足度の向上、クライアントへの新たな提案機会の創出につながります。</p>
+</div>
+</div>
+</div>
+<div class="col-md mb-md-0 mb-3">
+<div class="card h-100 border-0 shadow-sm">
+<div class="card-body">
+<div class="text-center mt-3 mb-4">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/customer03.svg" alt="EC運営会社">
+</div>
+<p class="text-center font-weight-bold text-dark h4">EC運営会社</p>
+<p class="text-center text-dark">マーケティング担当者様</p>
+<p class="text-left m-0">複数のツール（Google AnalyticsとSearch Console）を行き来することなく効率よく解析することができます。</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- <section class="sec sec-bg-dark">
+<div class="container">
+<h2 class="font-size-lg text-white text-center font-weight-bold mb-md-5 mb-4">SEOを効率化することであらゆる効果の向上に</h2>
 <div class="row mx-0">
 <div class="col-md-6 col-lg-4 p-1 p-md-2">
 <div class="d-flex justify-content-start align-items-stretch bg-white rounded-lg p-md-4 p-3 h-100">
@@ -105,43 +150,12 @@ get_header(); ?>
 </div>
 </div>
 </div>
-
 </div>
-</section>
-<!-- <section class="sec sec-bg-gray">
+</section> -->
+<section class="sec sec-bg-gray">
 <div class="container">
-<h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-5 mb-4">業種・業態を問わず様々なお客様に<br class="d-sm-block d-none">ご利用いただいています</h2>
-<div class="row align-items-stretch">
-<?php
-include_once(ABSPATH.WPINC.'/feed.php');
-$feeduri = 'http://lamp-inc.sakura.ne.jp/kagari_re/master/feed/?post_type=works';
-$rss = fetch_feed($feeduri);
-if (!is_wp_error($rss)) {
-    $maxitems = $rss->get_item_quantity(3);
-    $rss_items = $rss->get_items(0, $maxitems);
-}
-foreach ($rss_items as $post):
-$p = $post->get_permalink();
-$t = $post->get_title();
-$thumbnail = '';
-if (preg_match('/<img.+?src=[\'"]([^\'"]+?)[\'"].*?>/msi', $post->get_content(), $matches)) {
-    $thumbnail = $matches[1];
-}
-?>
-<div class="col-md-4 mb-md-0 mb-3">
-<div class="position-relative card border-0 rounded-lg shadow-sm">
-<img class="card-img-top" src="<?php echo $thumbnail; ?>" alt="<?php echo $t; ?>">
-<div class="card-body">
-<h3 class="h5 text-dark font-weight-bold"><?php echo $t; ?></h3>
-</div>
-<a class="stretched-link" href="<?php echo $p; ?>"></a>
-</div>
-</div>
-<?php endforeach; wp_reset_postdata(); ?>
-</div>
-<div class="mt-4 text-center">
-<a class="btn btn-outline-primary" href="<?php echo $home; ?>/works/" role="button">すべての事例をみる<i class="fas fa-chevron-right ml-2"></i></a>
-</div>
+<h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-4 mb-3">導入事例</h2>
+<p class="text-center">個人の方から、有名な大企業まで、業種業界を問わず多くのサイトでご利用いただいています。</p>
 </div>
 <div class="d-md-flex d-none justify-content-between align-items-center mt-5">
 <?php for ($i=1; $i<=8; $i++): ?>
@@ -150,7 +164,7 @@ if (preg_match('/<img.+?src=[\'"]([^\'"]+?)[\'"].*?>/msi', $post->get_content(),
 </div>
 <?php endfor; ?>
 </div>
-</section> -->
+</section>
 <section class="sec sec-bg-gray">
 <div class="container">
 <h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-5 mb-4">セミナー情報</h2>
@@ -189,9 +203,9 @@ $thum = $data["_embedded"]["wp:featuredmedia"][0]["media_details"]["sizes"]["med
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/logo_report.svg" alt="KAGARI Report">
 </div>
 <div class="card-title">
-<h3 class="text-dark font-weight-bold">WEBサイトのアクセス解析<br class="d-xl-block d-none">レポートをAIが自動作成</h3>
+<h3 class="text-dark font-weight-bold">アクセス解析レポートの<br class="d-xl-block d-none">自動作成・送信ツール</h3>
 </div>
-<p class="card-text">時間と手間のかかる解析レポートを自動で作成。Google Analyticsと連携してすぐに使えます。</p>
+<p class="card-text">報告用のアクセス解析レポートが自動作成・自動送信できるWEB担当者向け業務効率化ツールです。</p>
 <div class="mt-4">
 <a href="https://report.kagari.ai" target="_blank" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
@@ -210,11 +224,11 @@ $thum = $data["_embedded"]["wp:featuredmedia"][0]["media_details"]["sizes"]["med
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/logo_consulting.svg" alt="KAGARI Marketing">
 </div>
 <div class="card-title">
-<h3 class="text-dark font-weight-bold">KAGARIのデータを活用した<br class="d-xl-block d-none">コンテンツマーケティング</h3>
+<h3 class="text-dark font-weight-bold">データからCVを創出する<br class="d-xl-block d-none">WEBコンサルティングサービス</h3>
 </div>
-<p class="card-text">KAGARIの解析データに基づいて、貴社の成長に合わせた最適なプランニングやコンテンツ制作を行います。</p>
+<p class="card-text">KAGARIで培ったデータと200社以上を支援してきたノウハウをいかして貴社サイトのCV増加のためのコンサルティングを実施します。</p>
 <div class="mt-4">
-<a href="https://marketing.kagari.ai" target="_blank" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
+<a href="https://consulting.kagari.ai" target="_blank" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
 </div>
 </div>
