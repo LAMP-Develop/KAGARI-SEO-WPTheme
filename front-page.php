@@ -8,7 +8,7 @@ get_header(); ?>
 <div class="col-lg-7 mb-4 mb-lg-0">
 <h1 class="text-dark font-weight-bold mb-4">ページごとのSEO分析に特化した<br class="d-none d-md-block">アクセス解析ツール</h1>
 <p>KAGARI SEOは、サイトにあるすべてのページの検索クエリと<br class="d-none d-md-block">検索順位を可視化するSEO対策ツールです。</p>
-<a class="btn btn-primary" href="https://reporting.kagari.ai/register" role="button" target="_blank"><i class="fab fa-google mr-2"></i>今すぐ無料トライアル</a>
+<a class="btn btn-primary" href="https://analysis.kagari.ai/register" role="button" target="_blank"><i class="fab fa-google mr-2"></i>今すぐ無料トライアル</a>
 </div>
 <div class="col-lg-5 img pt-lg-5 pt-xl-0">
 <img class="img" src="<?php echo $wp_url; ?>/lib/images/mv.png" srcset="<?php echo $wp_url; ?>/lib/images/mv.png 1x, <?php echo $wp_url; ?>/lib/images/mv@2x.png 2x" alt="レポート画像">
@@ -170,7 +170,7 @@ get_header(); ?>
 <h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-5 mb-4">セミナー情報</h2>
 <ul class="list-group">
 <?php
-$url = "https://lamp-inc.sakura.ne.jp/kagari_re/master/wp-json/wp/v2/seminar?_embed&filter[posts_per_page]=3";
+$url = "https://kagari.ai/wp-json/wp/v2/seminar?_embed&filter[posts_per_page]=3";
 $json = file_get_contents($url);
 $arr = json_decode($json, true);
 foreach ($arr as $data):

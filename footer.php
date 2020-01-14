@@ -8,24 +8,24 @@ $wp_url = get_template_directory_uri(); ?>
 <div class="container">
 <div class="row mx-0">
 <div class="col-md col-6 mb-md-0 mb-3">
-<a class="text-white d-block mb-3" href="http://lamp-inc.sakura.ne.jp/kagari_re/seo/">KAGARI SEO</a>
-<a class="text-white d-block mb-3" href="http://lamp-inc.sakura.ne.jp/kagari_re/seo/product/">機能紹介</a>
-<a class="text-white d-block mb-3" href="http://lamp-inc.sakura.ne.jp/kagari_re/seo/price/">料金プラン</a>
+<a class="text-white d-block mb-3" href="https://seo.kagari.ai/">KAGARI SEO</a>
+<a class="text-white d-block mb-3" href="https://seo.kagari.ai/product/">機能紹介</a>
+<a class="text-white d-block mb-3" href="https://seo.kagari.ai/price/">料金プラン</a>
 </div>
 <div class="col-md col-6 mb-md-0 mb-3">
-<a class="text-white d-block mb-3" href="http://lamp-inc.sakura.ne.jp/kagari_re/report/">KAGARI Report</a>
-<a class="text-white d-block mb-3" href="http://lamp-inc.sakura.ne.jp/kagari_re/report/product/">機能紹介</a>
-<a class="text-white d-block mb-3" href="http://lamp-inc.sakura.ne.jp/kagari_re/report/price/">料金プラン</a>
+<a class="text-white d-block mb-3" href="https://report.kagari.ai/">KAGARI Report</a>
+<a class="text-white d-block mb-3" href="https://report.kagari.ai/product/">機能紹介</a>
+<a class="text-white d-block mb-3" href="https://report.kagari.ai/price/">料金プラン</a>
 </div>
 <div class="col-md col-6 mb-3">
 <a class="text-white d-block mb-3" href="https://consulting.kagari.ai/">KAGARI Consulting</a>
-<a class="text-white d-block mb-3" href="https://marketing.lamp.jp/">KAGARI Marketing</a>
+<a class="text-white d-block mb-3" href="https://marketing.kagari.ai/">KAGARI Marketing</a>
 <a class="text-white d-block mb-3" href="https://lamp.jp" target="_blank"><i class="fas fa-external-link-alt mr-1"></i>運営会社</a>
 <a class="text-white d-block mb-3" href="https://lamp.jp/recruit/" target="_blank"><i class="fas fa-external-link-alt mr-1"></i>採用情報</a>
 </div>
 <div class="col-md col-12">
-<a class="btn btn-success w-100 mb-3" href="https://reporting.kagari.ai/register" target="_blank">新規会員登録</a>
-<a class="btn btn-outline-info w-100" href="https://reporting.kagari.ai" target="_blank">ログイン</a>
+<a class="btn btn-success w-100 mb-3" href="https://analysis.kagari.ai/register" target="_blank">新規会員登録</a>
+<a class="btn btn-outline-info w-100" href="https://analysis.kagari.ai" target="_blank">ログイン</a>
 </div>
 </div>
 </div>

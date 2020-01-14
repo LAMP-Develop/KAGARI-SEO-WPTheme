@@ -4,11 +4,10 @@ $wp_url = get_template_directory_uri(); ?>
 <div class="container">
 <div class="row">
 <div class="col-lg-7 mb-4 mb-lg-0">
-<h2 class="font-size-lg text-center text-md-left text-dark font-weight-bold mb-4">SEO分析を<br class="d-md-none">KAGARIが効率化します</h2>
-<p>サンプル配布中
-<br>強力なSEO分析を是非ご体験ください。</p>
+<h2 class="font-size-lg text-center text-md-left text-dark font-weight-bold mb-4">まずは無料トライアルをお試しください</h2>
+<p>クレジットカード登録不要！<br>アカウント登録後すぐにすべての機能が10日間無料でお使いいただけます。</p>
 <div class="mt-4">
-<a class="btn btn-primary" href="https://seo.kagari.ai/demo/" target="_blank" role="button"><i class="fas fa-arrow-alt-circle-down mr-2"></i>サンプルを体験する</a>
+<a class="btn btn-primary" href="https://analysis.kagari.ai/register" target="_blank" role="button">まずは無料でお試しください</a>
 </div>
 </div>
 <div class="col-lg-5 d-none d-lg-block">

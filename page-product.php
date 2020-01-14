@@ -113,7 +113,7 @@ get_header(); ?>
 </div>
 <p class="card-text">時間と手間のかかる解析レポートを自動で作成。Google Analyticsと連携してすぐに使えます。</p>
 <div class="mt-4">
-<a href="http://lamp-inc.sakura.ne.jp/kagari_re/report/" target="_blank" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
+<a href="https://report.kagari.ai/" target="_blank" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
 </div>
 </div>
