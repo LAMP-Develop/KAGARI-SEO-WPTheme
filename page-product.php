@@ -147,12 +147,13 @@ get_header(); ?>
 <p class="font-weight-bold h6 text-dark my-3 mr-2 d-inline-block">広告</p>
 <p class="text-left m-0 d-none d-md-inline-block">リスティング広告の状況を知る</p>
 </div>
-<div class="service-card bg-white rounded-lg px-3 py-1 mb-2">
-<span class="opacity-item text-center opacity-bg-green d-inline-block mr-2">
+<div class="service-card bg-white rounded-lg d-flex align-items-center px-3 py-1 mb-2">
+<span class="opacity-item text-center opacity-bg-green mr-2">
 <i class="fas fa-search opacity-color-green"></i>
 </span>
-<p class="font-weight-bold h6 text-dark my-3 mr-2 d-inline-block">検索</p>
-<p class="text-left m-0 d-none d-md-inline-block">サイトの検索キーワードを知る</p>
+<p class="font-weight-bold h6 text-dark my-3 mr-2">検索</p>
+<p class="text-left m-0 d-none d-md-block">サイトの検索キーワードを知る</p>
+<div class="sec-bg-orange text-white ml-auto px-2 py-1 rounded-lg m-0 d-block">SEOプランのみ</div>
 </div>
 </div>
 <div id="sample-txt" class="tab-content">
@@ -165,7 +166,7 @@ get_header(); ?>
 <p class="my-4 tab-pane">サイト全体の検索キーワードの状況です。キーワードごとのクリック数や表示回数、平均掲載順位などを確認できます。</p>
 </div>
 <div class="px-2 mt-3 mt-md-0">
-<a href="https://kagari.ai/report-demo/pdf/kagari-reports.pdf" target="_blank" class="btn btn-success"><i class="fas fa-arrow-alt-circle-down mr-2"></i>サンプルをダウンロード<small>(PDF)</small></a>
+<a href="https://kagari.ai/report-demo/pdf/kagari-reports.pdf" target="_blank" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-down mr-2"></i>サンプルをダウンロード<small>(PDF)</small></a>
 </div>
 </div>
 <div class="col-lg order-1 order-lg-2">
