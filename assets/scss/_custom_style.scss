@@ -67,13 +67,6 @@ body {
   h1 {
     font-size: 2.6rem;
   }
-
-  .img {
-    margin-bottom: -$jumbotron-padding;
-    @include media-breakpoint-down(sm) {
-      margin-bottom: -($jumbotron-padding / 2);
-    }
-  }
 }
 
 #mv {

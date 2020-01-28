@@ -2,15 +2,15 @@
 $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 get_header(); ?>
-<section id="mv" class="cta jumbotron position-relative overflow-hidden">
+<section id="mv" class="cta jumbotron position-relative overflow-hidden pb-0">
 <div class="container">
 <div class="row">
 <div class="col-lg-7 mb-4 mb-lg-0">
 <h1 class="text-dark font-weight-bold mb-4">ページごとのSEO分析に特化した<br class="d-none d-md-block">アクセス解析ツール</h1>
-<p>KAGARI SEOは、サイトにあるすべてのページの検索クエリと<br class="d-none d-md-block">検索順位を可視化するSEO対策ツールです。</p>
+<p class="mb-4">KAGARI SEOは、サイトにあるすべてのページの検索クエリと<br class="d-none d-md-block">検索順位を可視化するSEO対策ツールです。</p>
 <a class="btn btn-primary" href="https://analysis.kagari.ai/register" role="button" target="_blank"><i class="fab fa-google mr-2"></i>今すぐ無料トライアル</a>
 </div>
-<div class="col-lg-5 img pt-lg-5 pt-xl-0">
+<div class="col-lg-5 align-self-end img pt-lg-5 pt-xl-0">
 <img class="img" src="<?php echo $wp_url; ?>/lib/images/mv.png" srcset="<?php echo $wp_url; ?>/lib/images/mv.png 1x, <?php echo $wp_url; ?>/lib/images/mv@2x.png 2x" alt="レポート画像">
 </div>
 </div>
