@@ -7,34 +7,16 @@ get_header(); ?>
 <h2 class="h5 text-center text-dark font-weight-bold mb-4"><?php the_title(); ?></h2>
 <h2 class="font-size-lg text-center text-dark font-weight-bold mb-md-5 mb-4">SEO分析を効率化するための機能が揃っています</h2>
 <div class="card mb-4 overflow-hidden sec-bg-gray border-0 shadow">
-<div class="row no-gutters align-items-center">
+<div class="row no-gutters align-items-stretch">
 <div class="col-lg-7 bg-white p-md-4">
 <div class="card-body">
 <div class="card-title">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_tools.svg" alt="従来のツール">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_query.svg" alt="検索クエリと順位">
 </div>
 <div class="card-title">
-<h3 class="text-dark font-weight-bold">アクセスデータとSEOを1画面で</h3>
+<h3 class="text-dark font-weight-bold">ページの検索クエリと検索順位を可視化</h3>
 </div>
-<p class="card-text m-0">PV数やセッション数、直帰率などのアクセスデータと検索キーワードや掲載順位によるSEO分析、SNS分析が1つの画面に集約されています。Google AnalyticsとGoogle Search Consoleを行き来することなくアクセス解析が可能です。</p>
-</div>
-</div>
-<div class="col-lg-5 align-self-end text-right">
-<img class="" src="<?php echo $wp_url; ?>/lib/images/function01.png" srcset="<?php echo $wp_url; ?>/lib/images/function01.png 1x, <?php echo $wp_url; ?>/lib/images/function01@2x.png 2x" alt="Google Analyticsと連携するだけ">
-</div>
-</div>
-</div>
-<div class="card mb-4 overflow-hidden sec-bg-gray border-0 shadow">
-<div class="row no-gutters align-items-center">
-<div class="col-lg-7 bg-white p-md-4">
-<div class="card-body">
-<div class="card-title">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_kagariseo.svg" alt="KAGARI SEO">
-</div>
-<div class="card-title">
-<h3 class="text-dark font-weight-bold">検索キーワードや順位を確認</h3>
-</div>
-<p class="card-text m-0">ページ単位で検索キーワードや検索順位を確認することができます。ページがどんなキーワードで検索されているのかと、それぞれのキーワードごとの検索順位を表示することで、SEOの改善に役立てることができます。</p>
+<p class="card-text m-0">ページごとに検索エンジン経由で流入したキーワードとその順位、ヒット数をリストで表示します。大量のページの情報を一覧表示できるので、ECサイトやメディアサイトの分析に最適です。</p>
 </div>
 </div>
 <div class="col-lg-5 align-self-end">
@@ -42,21 +24,39 @@ get_header(); ?>
 </div>
 </div>
 </div>
-<div class="card overflow-hidden sec-bg-gray border-0 shadow">
-<div class="row no-gutters align-items-end">
+<div class="card mb-4 overflow-hidden sec-bg-gray border-0 shadow">
+<div class="row no-gutters align-items-stretch">
 <div class="col-lg-7 bg-white p-md-4">
 <div class="card-body">
 <div class="card-title">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_pages.svg" alt="多くのページ">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_gasc.svg" alt="1画面で比較">
 </div>
 <div class="card-title">
-<h3 class="text-dark font-weight-bold">ページ数の多いサイトに最適</h3>
+<h3 class="text-dark font-weight-bold">アクセスデータとSEO状況を1画面で分析</h3>
 </div>
-<p class="card-text m-0">大量のページを一覧で表示できるため、ページ数が多いサイトのアクセス解析の効率が劇的に向上します。オウンドメディアやECサイトなどのページ数の多いサイトの解析を効率化します。</p>
+<p class="card-text m-0">Google AnalyticsとSearch Consoleのデータを1つの画面で確認できます。複数のウインドウを行き来することなく効率的にSEO分析を行えます。。</p>
 </div>
 </div>
-<div class="col-lg-5 align-self-stretch text-right">
-<img class="h-100" src="<?php echo $wp_url; ?>/lib/images/function03.png" srcset="<?php echo $wp_url; ?>/lib/images/function03.png 1x, <?php echo $wp_url; ?>/lib/images/function03@2x.png 2x" alt="そのまま使えるレポートが自動で完成">
+<div class="col-lg-5 align-self-end text-right">
+<img class="" src="<?php echo $wp_url; ?>/lib/images/function01.png" srcset="<?php echo $wp_url; ?>/lib/images/function01.png 1x, <?php echo $wp_url; ?>/lib/images/function01@2x.png 2x" alt="Google Analyticsと連携するだけ">
+</div>
+</div>
+</div>
+<div class="card overflow-hidden sec-bg-gray border-0 shadow">
+<div class="row no-gutters align-items-stretch">
+<div class="col-lg-7 bg-white p-md-4">
+<div class="card-body">
+<div class="card-title">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_excelpdf.svg" alt="エクスポート">
+</div>
+<div class="card-title">
+<h3 class="text-dark font-weight-bold">エクスポートで解析レポートを自動作成</h3>
+</div>
+<p class="card-text m-0">ページ毎のSEO分析結果をExcelで出力できます。アクセス解析結果を含めた解析レポートをPDF形式で自動作成することもできます。</p>
+</div>
+</div>
+<div class="col-lg-5 align-self-end">
+<img class="w-100" src="<?php echo $wp_url; ?>/lib/images/function03.png" srcset="<?php echo $wp_url; ?>/lib/images/function03.png 1x, <?php echo $wp_url; ?>/lib/images/function03@2x.png 2x" alt="そのまま使えるレポートが自動で完成">
 </div>
 </div>
 </div>
@@ -109,9 +109,9 @@ get_header(); ?>
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/logo_report.svg" alt="KAGARI Report">
 </div>
 <div class="card-title">
-<h3 class="text-dark font-weight-bold">WEBサイトのアクセス解析<br class="d-xl-block d-none">レポートをAIが自動作成</h3>
+<h3 class="text-dark font-weight-bold">アクセス解析レポートの<br class="d-xl-block d-none">自動作成・送信ツール</h3>
 </div>
-<p class="card-text">時間と手間のかかる解析レポートを自動で作成。Google Analyticsと連携してすぐに使えます。</p>
+<p class="card-text">報告用のアクセス解析レポートが自動作成・自動送信できるWEB担当者向け業務効率化ツールです。</p>
 <div class="mt-4">
 <a href="https://report.kagari.ai/" target="_blank" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>

@@ -25,7 +25,7 @@ get_header(); ?>
 <div class="card h-100 border-0 shadow-sm position-relative">
 <div class="card-body">
 <div class="text-center mt-3 mb-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_tools.svg" alt="Google Analytics">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_query.svg" alt="検索クエリと順位">
 </div>
 <h3 class="card-title font-weight-bold text-center h5 text-dark">ページの検索クエリと<br>検索順位を可視化</h3>
 <p>ページごとに検索エンジン経由で流入したキーワードとその順位、ヒット数をリストで表示します。</p>
@@ -39,7 +39,7 @@ get_header(); ?>
 <div class="card h-100 border-0 shadow-sm position-relative">
 <div class="card-body">
 <div class="text-center mt-3 mb-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_kagariseo.svg" alt="AI">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_gasc.svg" alt="1画面で比較">
 </div>
 <h3 class="card-title font-weight-bold text-center h5 text-dark">アクセスデータと<br>SEO状況を1画面で分析</h3>
 <p>Google AnalyticsとSearch Consoleのデータを1つの画面で比較しながら分析することができます。</p>
@@ -53,10 +53,10 @@ get_header(); ?>
 <div class="card h-100 border-0 shadow-sm position-relative">
 <div class="card-body">
 <div class="text-center mt-3 mb-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_pages.svg" alt="レポート">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_excelpdf.svg" alt="エクスポート">
 </div>
-<h3 class="card-title font-weight-bold text-center h5 text-dark">エクスポートして<br>解析レポートを作成</h3>
-<p>Excel形式でエクスポートし、付属のアクセス解析レポートとセットで作成をすることができます。</p>
+<h3 class="card-title font-weight-bold text-center h5 text-dark">エクスポートで<br>解析レポートを自動作成</h3>
+<p>ページ毎のSEO分析をExcelで出力、レポート機能によりアクセス解析結果をPDFで出力できます。</p>
 <div class="text-center">
 <a href="<?php echo $home; ?>/product/" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
