@@ -95,7 +95,7 @@ get_header(); ?>
 <h3 class="text-dark h5">検索順位やキーワードを<br>分析できる上級者向けプラン</h3>
 <p class="text-dark font-weight-bold h4">¥<span class="h1 font-weight-bold mx-1">8,000</span>/月<span class="h6 ml-1">(税込)</span></p>
 </div>
-<p class="card-text">¥96,000/年間(税込)</p>
+<p class="card-text">¥48,000/半年(税込)</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>アクセス解析</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>レポーティング機能</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>AI改善提案</p>
@@ -119,7 +119,7 @@ get_header(); ?>
 <h3 class="text-dark h5">基本的なレポート作成機能を<br>ご利用いただけるプラン</h3>
 <p class="text-dark font-weight-bold h4">¥<span class="h1 font-weight-bold mx-1">5,000</span>/月<span class="h6 ml-1">(税込)</span></p>
 </div>
-<p class="card-text">¥60,000/年間(税込)</p>
+<p class="card-text">¥30,000/半年(税込)</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>アクセス解析</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>レポーティング機能</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>AI改善提案</p>
@@ -147,7 +147,7 @@ get_header(); ?>
 <h3 class="text-dark h5">検索順位やキーワードを<br>分析できる上級者向けプラン</h3>
 <p class="text-dark font-weight-bold h4">¥<span class="h1 font-weight-bold mx-1">9,000</span>/月<span class="h6 ml-1">(税込)</span></p>
 </div>
-<p class="card-text">¥108,000/年間(税込)</p>
+<!-- <p class="card-text">¥108,000/年間(税込)</p> -->
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>アクセス解析</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>レポーティング機能</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>AI改善提案</p>
@@ -171,7 +171,7 @@ get_header(); ?>
 <h3 class="text-dark h5">基本的なレポート作成機能を<br>ご利用いただけるプラン</h3>
 <p class="text-dark font-weight-bold h4">¥<span class="h1 font-weight-bold mx-1">6,000</span>/月<span class="h6 ml-1">(税込)</span></p>
 </div>
-<p class="card-text">¥72,000/年間(税込)</p>
+<!-- <p class="card-text">¥72,000/年間(税込)</p> -->
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>アクセス解析</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>レポーティング機能</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>AI改善提案</p>
